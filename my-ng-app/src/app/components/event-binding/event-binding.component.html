@@ -1,0 +1,11 @@
+<div>
+  <div>Welcome To Event Binding</div>
+  <!-- Examples for Event Binding -->
+  <div>
+    <input type="text" [value]="age" (input)="handleAgeChange($event)"/>
+  </div>
+  <div>{{age}}</div>
+  <div>
+    <button (click)="handleSubmit()">Submit</button>
+  </div>
+</div>  
