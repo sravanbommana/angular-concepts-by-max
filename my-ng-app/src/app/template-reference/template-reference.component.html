@@ -1,0 +1,5 @@
+<div>
+  <app-child-template-reference #childReference></app-child-template-reference>
+  {{childReference.name}}
+  <button (click)="childReference.greet()">Greet</button>
+</div>

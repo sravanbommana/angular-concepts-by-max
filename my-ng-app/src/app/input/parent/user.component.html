@@ -1,0 +1,7 @@
+<div>
+  <div *ngFor="let item of users">
+    {{item.name}} - {{item.username}}
+  </div>
+  <div style="margin-top:10px"></div>
+  <app-user-list [addresses]="addresses" [loggedIn]="userLoggedIn"></app-user-list>
+</div>
