@@ -1,0 +1,9 @@
+
+<div class="container">
+  <div>Welcome To Ng Style</div>
+  <div class="dot" [style.background-color]="backgroundColor"></div>
+  <div>
+    <button (click)="handleColorChange($event, 'green')">Green</button>
+    <button (click)="handleColorChange($event, 'red')">Red</button>
+  </div>
+</div>
